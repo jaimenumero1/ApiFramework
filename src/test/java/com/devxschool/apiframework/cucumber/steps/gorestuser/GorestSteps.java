@@ -1,4 +1,4 @@
-package com.devxschool.apiframework.cucumber.steps;
+package com.devxschool.apiframework.cucumber.steps.gorestuser;
 
 import com.devxschool.apiframework.api.pojos.User;
 import com.devxschool.apiframework.api.pojos.UserResponseList;

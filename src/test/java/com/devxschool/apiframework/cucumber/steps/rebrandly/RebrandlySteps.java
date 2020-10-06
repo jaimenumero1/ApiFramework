@@ -1,4 +1,4 @@
-package com.devxschool.apiframework.cucumber.steps;
+package com.devxschool.apiframework.cucumber.steps.rebrandly;
 
 import com.devxschool.apiframework.api.pojos.RebrandlyLink;
 import com.devxschool.apiframework.cucumber.steps.common.CommonData;

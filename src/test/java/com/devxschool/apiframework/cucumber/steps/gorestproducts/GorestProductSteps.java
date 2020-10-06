@@ -1,4 +1,4 @@
-package com.devxschool.apiframework.cucumber.steps;
+package com.devxschool.apiframework.cucumber.steps.gorestproducts;
 
 import com.devxschool.apiframework.api.pojos.Product;
 import com.devxschool.apiframework.api.pojos.ProductResponseObject;
