@@ -1,21 +1,18 @@
-package com.devxschool.apiframework.cucumber.steps.rebrandly;
+package com.devxschool.apiframework.cucumber.steps.api.rebrandly;
 
 import com.devxschool.apiframework.api.pojos.RebrandlyLink;
-import com.devxschool.apiframework.cucumber.steps.common.CommonData;
+import com.devxschool.apiframework.cucumber.steps.api.common.CommonData;
 import com.devxschool.apiframework.utilities.ObjectConverter;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 

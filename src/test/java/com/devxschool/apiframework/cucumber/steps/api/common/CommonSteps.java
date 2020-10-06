@@ -1,4 +1,4 @@
-package com.devxschool.apiframework.cucumber.steps.common;
+package com.devxschool.apiframework.cucumber.steps.api.common;
 
 import cucumber.api.java.en.Then;
 import org.hamcrest.MatcherAssert;

@@ -1,4 +1,4 @@
-@Rebrandly
+@Rebrandly @Regression
 Feature: Rebrandly Links
   As a user of Rebrandly APIs
   I would like to work with links (Create, Get, Delete, Update them)

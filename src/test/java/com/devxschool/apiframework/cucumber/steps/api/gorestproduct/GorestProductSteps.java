@@ -1,17 +1,14 @@
-package com.devxschool.apiframework.cucumber.steps.gorestproducts;
+package com.devxschool.apiframework.cucumber.steps.api.gorestproduct;
 
 import com.devxschool.apiframework.api.pojos.Product;
 import com.devxschool.apiframework.api.pojos.ProductResponseObject;
-import com.devxschool.apiframework.cucumber.steps.common.CommonData;
+import com.devxschool.apiframework.cucumber.steps.api.common.CommonData;
 import com.devxschool.apiframework.utilities.ObjectConverter;
-import cucumber.api.DataTable;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
@@ -75,6 +72,5 @@ public class GorestProductSteps {
                     .pathParam("productId", productResponse.getProduct().getId())
                     .delete("/products/{productId}");
         }
-
     }
 }

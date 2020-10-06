@@ -5,13 +5,9 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-
 public class BlogUser {
-
     private String id;
     private String name;
     private String email;
     private int age;
-
-
 }

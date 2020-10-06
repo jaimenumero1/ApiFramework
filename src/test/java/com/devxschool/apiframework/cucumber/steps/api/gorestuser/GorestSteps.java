@@ -1,17 +1,15 @@
-package com.devxschool.apiframework.cucumber.steps.gorestuser;
+package com.devxschool.apiframework.cucumber.steps.api.gorestuser;
 
 import com.devxschool.apiframework.api.pojos.User;
 import com.devxschool.apiframework.api.pojos.UserResponseList;
 import com.devxschool.apiframework.api.pojos.UserResponseObject;
-import com.devxschool.apiframework.cucumber.steps.common.CommonData;
+import com.devxschool.apiframework.cucumber.steps.api.common.CommonData;
 import com.devxschool.apiframework.utilities.ObjectConverter;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;

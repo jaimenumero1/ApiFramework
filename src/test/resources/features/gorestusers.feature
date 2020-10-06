@@ -1,3 +1,4 @@
+@GorestUsers @Regression @Smoke
 Feature: Gorest Users
 
   @getAllUsers
