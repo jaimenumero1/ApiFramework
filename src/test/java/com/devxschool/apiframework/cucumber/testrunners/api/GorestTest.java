@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 "com.devxschool.apiframework.cucumber.steps.api.common",
         },
         tags = {
-                "@getAllUsers"
+                "@GorestUsers"
         },
         dryRun = false
 )

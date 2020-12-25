@@ -2,8 +2,7 @@ package com.devxschool.apiframework.cucumber.steps.blog;
 
 import com.devxschool.apiframework.api.pojos.BlogPost;
 import com.devxschool.apiframework.api.pojos.BlogUser;
-import com.devxschool.apiframework.cucumber.steps.common.CommonData;
-import com.devxschool.apiframework.utilities.ObjectConverter;
+import com.devxschool.apiframework.cucumber.steps.api.common.CommonData;
 import cucumber.api.DataTable;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
